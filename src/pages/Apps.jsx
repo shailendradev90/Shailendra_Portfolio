@@ -84,14 +84,11 @@ const appCategories = [
 export default function Apps() {
   return (
     <section id="apps" className="space-y-10 py-16">
-      <SectionTitle title="Apps Developed" subtitle="Recent product work" />
+      <SectionTitle subtitle="Recent product work" />
       
       <div className="space-y-8">
         {appCategories.map((categoryItem) => (
           <div key={categoryItem.category} className="space-y-4">
-            {/* Category Title */}
-            <h3 className="text-2xl font-bold text-white">{categoryItem.category}</h3>
-            
             {/* Horizontal Scroll Container */}
             <div className="rounded-3xl border border-white/10 bg-slate-950/90 p-6 shadow-[0_20px_80px_rgba(77,163,255,0.1)]">
               <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
