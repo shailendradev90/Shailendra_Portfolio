@@ -4,7 +4,7 @@ const apps = [
   {
     title: 'Real Estate App',
     description: 'A modern property search and booking experience with advanced filters and clean listings.',
-    href: 'https://github.com/your-username/real-estate-app',
+    href: 'https://github.com/shailendradev90/Propify',
   },
   {
     title: 'SaaS App',
